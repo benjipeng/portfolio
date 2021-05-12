@@ -1,7 +1,9 @@
 # Site settings
 title: Freelancer
 email: your-email@domain.com
-url: https://github.com/benjipeng/portfolio.git
+url: https://github.com/benjipeng/portfolio
+baseurl: /portfolio
+
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
@@ -63,7 +65,7 @@ markdown: kramdown
 permalink: pretty
 
 
-baseurl: /portfolio
+
 #for posts
 defaults:
   - scope:
